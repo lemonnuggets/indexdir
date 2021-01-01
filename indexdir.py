@@ -2,7 +2,7 @@
 A simple script to index directories
 and print files with the required filename.
 Usage:
-indexdir.py {filename} {depth to be indexed(by default infinity)} {directories to be indexed}
+indexdir.py {filename} -dep {depth to be indexed(by default infinity)} -dir {directories to be indexed}
 """
 import os
 import argparse
