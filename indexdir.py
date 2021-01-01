@@ -85,7 +85,6 @@ parser.add_argument("-dir", "--directories",
                     nargs='+',
                     default=[os.getcwd()])
 args = parser.parse_args()
-# print(args, args.depth, args.filename, args.directories)
 results = []
 max_depth = args.depth
 dirs_to_be_ignored = get_dirignore()
