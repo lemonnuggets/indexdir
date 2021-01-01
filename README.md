@@ -2,6 +2,11 @@
 A simple script to index directories
 and print files with the required filename.
 
+# Installation
+```git clone https://github.com/lemonnuggets/indexdir.git```
+```cd .\indexdir\```
+```pip install requirements.txt```
+
 # Usage:
 ### 1. To get help
 
