@@ -9,4 +9,4 @@ and print files with the required filename.
 
 ### 2. To find a file with a certain filename
 
-```indexdir.py {filename} -dep {depth to be indexed(by default infinity)} -dir {directories to be indexed}```
+```indexdir.py {filename} -dep {depth to be indexed(by default infinity)} -dir {directories to be indexed(by default current working directory)}```
