@@ -81,7 +81,7 @@ parser.add_argument("-dep", "--depth",
                     default=float("inf"))
 parser.add_argument("-dir", "--directories",
                     metavar="DIRS",
-                    help="The directory/directories to be indexed",
+                    help="The directory/directories to be indexed (default = current working directory)",
                     nargs='+',
                     default=[os.getcwd()])
 args = parser.parse_args()
